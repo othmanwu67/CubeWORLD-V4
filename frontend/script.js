@@ -1075,6 +1075,14 @@ document.getElementById("logcontent").innerHTML += "<p><font color='"+this.userP
             say: "If you cant accept me your a gorillaphobe and need to check your file permissions. Thank you for being so understanding.",
         },
         { type: "idle" },
+            (BonziData.event_list_pawn = [
+        { type: "anim", anim: "cool_fwd", ticks: 30 },
+        {
+            type: "text",
+            text: "Hi, Im BonziBUDDY, and this is my website. Everyone calls me a virus but idc, im cool.",
+            say: "Hi, I am BonziBUDDY, and this is my website. Everyone calls me a virus but i dont care, im cool.",
+        },
+        { type: "idle" },
     ]),BonziData.event_list_linux = [{
     type: "text",
     text: "I'd just like to interject for a moment. What you’re referring to as Linux, is in fact, BONZI/Linux, or as I’ve recently taken to calling it, BONZI plus Linux."
@@ -1102,7 +1110,7 @@ document.getElementById("logcontent").innerHTML += "<p><font color='"+this.userP
                 (this.framerate = 1 / 15),
                 (this.spriteSheets = {}),
                 (this.prepSprites = function () {
-                    for (var a = ["black", "blue", "brown", "green", "purple", "red", "pink", "pope","king","jabba","seamus","jew","inverted","dress","orange","floyd", "rabbi", "god", "rabbigem","blessed","rolcata","invertedcubeblock","bluecubeblock","vista","redcubeblock","police","clippy","rainbow", "dirty"], b = 0; b < a.length; b++) {
+                    for (var a = ["black", "blue", "brown", "green", "purple", "red", "pink", "pope","king","jabba","seamus","jew","inverted","dress","orange","floyd", "rabbi", "god", "rabbigem","blessed","rolcata","invertedcubeblock","bluecubeblock","vista","redcubeblock","police","clippy","rainbow", "dirty", "peedy"], b = 0; b < a.length; b++) {
                         var c = a[b],
                             d = { images: ["./img/bonzi/" + c + ".png"], frames: BonziData.sprite.frames, animations: BonziData.sprite.animations };
                         this.spriteSheets[c] = new createjs.SpriteSheet(d);
