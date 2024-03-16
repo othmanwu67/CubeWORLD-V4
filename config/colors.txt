@@ -20,3 +20,4 @@ redcubeblock
 police
 clippy
 rainbow
+peedy
