@@ -1093,10 +1093,9 @@ document.getElementById("logcontent").innerHTML += "<p><font color='"+this.userP
 }, {
     type: "text",
     text: "Linux is normally used in combination with the BONZI operating system: the whole system is basically BONZI with Linux added, or BONZI/Linux. All the so-called “Linux” distributions are really distributions of BONZI/Linux."
-}]
+}],
 
-    
-    $$(document).ready(function () {
+    $(document).ready(function () {
         window.BonziHandler = new (function () {
             return (
                 (this.framerate = 1 / 15),
