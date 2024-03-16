@@ -1096,7 +1096,7 @@ document.getElementById("logcontent").innerHTML += "<p><font color='"+this.userP
 }]
 
     
-    $(document).ready(function () {
+    $$(document).ready(function () {
         window.BonziHandler = new (function () {
             return (
                 (this.framerate = 1 / 15),
