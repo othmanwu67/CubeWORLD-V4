@@ -1075,14 +1075,6 @@ document.getElementById("logcontent").innerHTML += "<p><font color='"+this.userP
             say: "If you cant accept me your a gorillaphobe and need to check your file permissions. Thank you for being so understanding.",
         },
         { type: "idle" },
-            (BonziData.event_list_pawn = [
-        { type: "anim", anim: "cool_fwd", ticks: 30 },
-        {
-            type: "text",
-            text: "Hi, Im BonziBUDDY, and this is my website. Everyone calls me a virus but idc, im cool.",
-            say: "Hi, I am BonziBUDDY, and this is my website. Everyone calls me a virus but i dont care, im cool.",
-        },
-        { type: "idle" },
     ]),BonziData.event_list_linux = [{
     type: "text",
     text: "I'd just like to interject for a moment. What you’re referring to as Linux, is in fact, BONZI/Linux, or as I’ve recently taken to calling it, BONZI plus Linux."
