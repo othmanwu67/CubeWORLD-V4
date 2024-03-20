@@ -548,8 +548,7 @@ socket.emit("talk",{text: d.userPublic.name+" stop being a kiddie or i will fuck
                 },
                 {
                     key: "clearDialog",
-                    value: function () {
-                        value: function (tkm, skipVideo, keepOpen) {
+                    value: function (tkm, skipVideo, keepOpen) {
                       var self = this;
                       function _clearDialog() {
                           keepOpen ||
@@ -571,8 +570,8 @@ socket.emit("talk",{text: d.userPublic.name+" stop being a kiddie or i will fuck
                                 self.$dialog.fadeOut(400, function () {
                                     _clearDialog();
                                 });
-                    },
-                 },
+                    }
+                  },
                 },
                 {
                     key: "cancel",
